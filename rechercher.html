@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Monbudgetcourse</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/png/1.png" rel="icon">
+  <link href="assets/img/png/1.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+
+
+
+  
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ <style> 
+  input
+  {
+    pointer-events: none;
+  }
+</style> 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparen bg-success">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+       <!--  <h1><a href="index.html"><span>Bootslander</span></a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/png/4.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#rechercher">Rechercher</a></li>
+          <li><a class="nav-link scrollto" href="#favori">Favori</a></li>
+          
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#pricing"> <i class="bi bi-cart m-3 h-1"></i> Mes courses</a></li>
+          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          
+          <li><a class="nav-link scrollto bi bi-user mx-3" href="profil.html"> Profil</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero1" class="rounded  shadow " style="">
+    
+<!-- <div class="row mt-5">
+    <div class="col-md-4 g-5 bg-success d-flex mx-auto"><img src="assets/img/coca.jpeg" alt="" width="50%" class="ima" srcset=""></div>
+    <div class="col-md-8 d-flex p-3 bg-warning ">
+        <div class="d-flex">Coca-Cola 500 ml </div>
+    </div>
+</div> -->
+<div class="row p-3">
+  <div class="card mb-3 w-75 p-5 sm-shadow mx-auto mt-3" >
+    <div class="row ">
+      <div class="col-md-4  d-flex justify-content-center p-2">
+        <img src="assets/img/coca.jpeg" class="img-fluid rounded-start d-flex" width="70%" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ">
+          <h5 class="card-title" style="font-size: 20px;">Coca-Cola</h5>
+          <p class="card-text" style="font-size: 18px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section><!-- End Hero -->
+  <div class="container">
+    <div class="row">
+      <table id="example" class="table table-striped table-hover table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>n°</th>
+                <th>Prix</th>
+                <th>Region</th>
+                <th>Status</th>
+                <th>Commande</th>
+                <th>Option</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>200$</td>
+                <td>FRANCE ,Paris rue2</td>
+                <td>Avec promotion</td>
+                <td>www.phone.com</td>
+                <td class="bi bi-cog"></td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>n°</th>
+            <th>Prix</th>
+            <th>Region</th>
+            <th>Status</th>
+            <th>Commande</th>
+            
+        </tr>
+        </tfoot>
+    </table>
+    </div>
+  </div>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p class="text-warning">Contact Us</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3></h3>
+              <img src="assets/img/png/4.png" width="50%"/>
+              <p class="pb-3 mt-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Digit Sarl</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://">Digit-Consulting</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
+
+<script>
+    document.querySelectorAll('#formID input, #formID select, #formID button, #formID textarea').forEach(elem => elem.disabled = true);
+    
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );
+  </script>
+
+
+
+
+</body>
+
+</html>
