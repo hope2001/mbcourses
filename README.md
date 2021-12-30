@@ -1,2 +1,3 @@
-# mbcourses
-monbudgetcourse
+# monbudgetcourses-userfront-template
+
+monbudgetcourses-userfront-template
