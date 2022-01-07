@@ -289,24 +289,69 @@
         <h2 class="text-warning text-center text-shadow font-weight-bold">Produits en promotion </h2>
       </div>
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Details de l'article</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Code</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Description</th>
+              <th scope="col">Stock Disponible</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>00ft</td>
+              <td>Jordan</td>
+              <td>Montante Jordane </td>
+              <td>250 Paires </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>00ft</td>
+              <td>Jordan</td>
+              <td>Montante Jordane </td>
+              <td>250 Paires </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>00ft</td>
+              <td>Jordan</td>
+              <td>Montante Jordane </td>
+              <td>250 Paires </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>00ft</td>
+              <td>Jordan</td>
+              <td>Montante Jordane </td>
+              <td>250 Paires </td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>00ft</td>
+              <td>Jordan</td>
+              <td>Montante Jordane </td>
+              <td>250 Paires </td>
+            </tr>
+            
+          </tbody>
+        </table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger">Fermer</button>
       </div>
     </div>
   </div>
@@ -367,16 +412,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-1" src="assets/img/shoe9.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
                               </div>
                           </div>
@@ -384,16 +429,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-1" src="assets/img/shoe5.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
   
                               </div>
@@ -409,16 +454,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-1" src="assets/img/shoe4.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
                               </div>
                           </div>
@@ -426,16 +471,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-1" src="assets/img/shoe9.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
                               </div>
                           </div>
@@ -443,16 +488,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-2" src="assets/img/shoe1.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
                               </div>
                           </div>
@@ -460,16 +505,16 @@
                               <div class="card border-0 shadow">
                                   <img class="card-img-top p-1" src="assets/img/shoe5.webp">
                                   <div class="card-body py-1">
-                                      <div class="d-flex justify-content-between">
-                                      <span class="promo-price">20$</span>
-                                      <span class="promo-price">
-                                      <strike>60$</strike>
-                                      </span>
-                                      </div>
-                                    <p class="text-center py-3">
-                                      <span class="promo-details text-center">Voir les détails</span>
-                                    </p>
-                                  </div>
+                                    <div class="d-flex justify-content-between">
+                                    <span class=" btn btn-success">20$</span>
+                                    
+                                    <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                    
+                                    </div>
+                                  <p class="text-center py-3">
+                                    <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                  </p>
+                                </div>
                                   
                                   
                               </div>
@@ -485,16 +530,16 @@
                                   <div class="card border-0 shadow">
                                       <img class="card-img-top p-2" src="assets/img/shoe1.webp">
                                       <div class="card-body py-1">
-                                          <div class="d-flex justify-content-between">
-                                          <span class="promo-price">20$</span>
-                                          <span class="promo-price">
-                                          <strike>60$</strike>
-                                          </span>
-                                          </div>
-                                        <p class="text-center py-3">
-                                          <span class="promo-details text-center">Voir les détails</span>
-                                        </p>
-                                      </div>
+                                        <div class="d-flex justify-content-between">
+                                        <span class=" btn btn-success">20$</span>
+                                        
+                                        <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                        
+                                        </div>
+                                      <p class="text-center py-3">
+                                        <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                      </p>
+                                    </div>
                                       
                                   </div>
                               </div>
@@ -502,16 +547,16 @@
                                   <div class="card border-0 shadow">
                                       <img class="card-img-top p-1" src="assets/img/shoe4.webp">
                                       <div class="card-body py-1">
-                                          <div class="d-flex justify-content-between">
-                                          <span class="promo-price">20$</span>
-                                          <span class="promo-price">
-                                          <strike>60$</strike>
-                                          </span>
-                                          </div>
-                                        <p class="text-center py-3">
-                                          <span class="promo-details text-center">Voir les détails</span>
-                                        </p>
-                                      </div>
+                                        <div class="d-flex justify-content-between">
+                                        <span class=" btn btn-success">20$</span>
+                                        
+                                        <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                        
+                                        </div>
+                                      <p class="text-center py-3">
+                                        <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                      </p>
+                                    </div>
                                       
                                   </div>
                               </div>
@@ -519,16 +564,16 @@
                                   <div class="card border-0 shadow">
                                       <img class="card-img-top p-1" src="assets/img/shoe5.webp">
                                       <div class="card-body py-1">
-                                          <div class="d-flex justify-content-between">
-                                          <span class="promo-price">20$</span>
-                                          <span class="promo-price">
-                                          <strike>60$</strike>
-                                          </span>
-                                          </div>
-                                        <p class="text-center py-3">
-                                          <span class="promo-details text-center">Voir les détails</span>
-                                        </p>
-                                      </div>
+                                        <div class="d-flex justify-content-between">
+                                        <span class=" btn btn-success">20$</span>
+                                        
+                                        <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                        
+                                        </div>
+                                      <p class="text-center py-3">
+                                        <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                      </p>
+                                    </div>
                                       
                                   </div>
                               </div>
@@ -536,16 +581,16 @@
                                   <div class="card border-0 shadow">
                                       <img class="card-img-top p-1" src="assets/img/shoe9.webp">
                                       <div class="card-body py-1">
-                                          <div class="d-flex justify-content-between">
-                                          <span class="promo-price">20$</span>
-                                          <span class="promo-price">
-                                          <strike>60$</strike>
-                                          </span>
-                                          </div>
-                                        <p class="text-center py-3">
-                                          <span class="promo-details text-center">Voir les détails</span>
-                                        </p>
-                                      </div>
+                                        <div class="d-flex justify-content-between">
+                                        <span class=" btn btn-success">20$</span>
+                                        
+                                        <span class="btn btn-danger text-decoration-line-through">60$</span>
+                                        
+                                        </div>
+                                      <p class="text-center py-3">
+                                        <span class="promo-details text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir les détails</span>
+                                      </p>
+                                    </div>
                                       
                                       
                                   </div>
